@@ -1,0 +1,40 @@
+# This is the configuration file for Ghostty.
+#
+# This template file has been automatically created at the following
+# path since Ghostty couldn't find any existing config files on your system:
+#
+#   /home/sot/.config/ghostty/config
+#
+# The template does not set any default options, since Ghostty ships
+# with sensible defaults for all options. Users should only need to set
+# options that they want to change from the default.
+#
+# Run `ghostty +show-config --default --docs` to view a list of
+# all available config options and their default values.
+#
+# Additionally, each config option is also explained in detail
+# on Ghostty's website, at https://ghostty.org/docs/config.
+#
+# Ghostty can reload the configuration while running by using the menu
+# options or the bound key (default: Command + Shift + comma on macOS and
+# Control + Shift + comma on other platforms). Not all config options can be
+# reloaded while running; some only apply to new windows and others may require
+# a full restart to take effect.
+# フォント（筑波大でのコーディングに最適な等幅フォントをお好みで）
+font-family = "JetBrainsMono Nerd Font"
+font-size = 12
+
+# 【重要】起動時に Zellij を直接実行する
+command = zellij attach -c || zellij
+
+# 見た目の調整
+background-opacity = 0.95
+theme = Monokai Pro
+# 全画面（フルスクリーン）で起動したい場合
+#window-decoration = false
+#window-step-after-resize = true
+#window-start-focused = true
+#initial-window-state = fullscreen
+
+# または「最大化（タスクバーなどが見える状態）」がいい場合はこちら
+# initial-window-state = maximized
