@@ -1,0 +1,16 @@
+# ~/.config/nvim/.stylua.toml
+
+# 1行の最大文字数
+column_width = 120
+
+# 改行コード
+line_endings = "Unix"
+
+# インデントの種類と幅（スペース4つに設定）
+indent_type = "Spaces"
+indent_width = 4
+
+# クオートのスタイル（ダブルクオートを優先。好みで "AutoPreferSingle" に変えてもOK）
+quote_style = "AutoPreferDouble"
+
+# 末尾のカンマをどうするか（面倒なので自動に任せる）
